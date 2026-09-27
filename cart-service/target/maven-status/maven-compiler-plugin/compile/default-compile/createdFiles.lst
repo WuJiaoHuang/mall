@@ -9,4 +9,3 @@ com\hmall\cart\CartApplication.class
 com\hmall\cart\domain\po\Cart.class
 com\hmall\cart\mapper\CartMapper.class
 com\hmall\cart\domain\po\Item.class
-com\hmall\cart\service\IItemService.class

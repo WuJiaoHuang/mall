@@ -1,0 +1,35 @@
+16:58:36:576  INFO 14216 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 17.0.12 on WuJiaoHuang with PID 14216 (D:\HuaweiMoveData\Users\HW\Desktop\day03-微服务01\资料\hmall\item-service\target\classes started by HW in D:\HuaweiMoveData\Users\HW\Desktop\day03-微服务01\资料\hmall\item-service)
+16:58:36:579 DEBUG 14216 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:58:36:579  INFO 14216 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "dev"
+16:58:37:108  INFO 14216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:58:37:109  INFO 14216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:58:37:129  INFO 14216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+16:58:37:642  INFO 14216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+16:58:37:643  INFO 14216 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+16:58:37:643  INFO 14216 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:58:37:643  INFO 14216 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:58:37:648  INFO 14216 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+16:58:37:656  INFO 14216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:58:37:658  INFO 14216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:58:37:773  INFO 14216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:58:37:773  INFO 14216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1159 ms
+16:58:38:563  INFO 14216 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:58:38:847  WARN 14216 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+16:58:38:858  INFO 14216 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+16:58:38:865  INFO 14216 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:58:38:876 ERROR 14216 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+

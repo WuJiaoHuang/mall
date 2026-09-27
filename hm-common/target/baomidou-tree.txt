@@ -1,0 +1,4 @@
+com.heima:hm-common:jar:1.0.0
++- com.baomidou:mybatis-plus-core:jar:3.5.7:provided
+|  \- com.baomidou:mybatis-plus-annotation:jar:3.5.7:provided
+\- com.baomidou:mybatis-plus-extension:jar:3.5.7:provided

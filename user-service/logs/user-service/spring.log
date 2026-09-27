@@ -1,0 +1,21 @@
+17:00:53:452  INFO 39452 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 17.0.12 on WuJiaoHuang with PID 39452 (D:\HuaweiMoveData\Users\HW\Desktop\day03-微服务01\资料\hmall\user-service\target\classes started by HW in D:\HuaweiMoveData\Users\HW\Desktop\day03-微服务01\资料\hmall\user-service)
+17:00:53:454 DEBUG 39452 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+17:00:53:454  INFO 39452 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "dev"
+17:00:55:202  INFO 39452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:00:55:219  INFO 39452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:00:55:301  INFO 39452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+17:00:57:614  INFO 39452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+17:00:57:617  INFO 39452 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+17:00:57:619  INFO 39452 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:00:57:620  INFO 39452 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:00:57:637  INFO 39452 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+17:00:57:666  INFO 39452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:00:57:667  INFO 39452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:00:58:184  INFO 39452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+17:00:58:185  INFO 39452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4701 ms
+17:01:01:496  INFO 39452 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:01:02:436  INFO 39452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+17:01:02:440  INFO 39452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+17:01:02:447  INFO 39452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+17:01:02:503  INFO 39452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+17:01:02:737  INFO 39452 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 9.568 seconds (JVM running for 9.83)
