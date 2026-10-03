@@ -88,7 +88,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
         Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
         // 2.查询商品
         ResponseEntity<List<ItemDTO>>response =  restTemplate.exchange(
-                "http://8081/items?ids={ids}",
+                "http://localhost:8081/items?ids={ids}",
                 HttpMethod.GET,
                 null,
                 new ParameterizedTypeReference<List<ItemDTO>>() {

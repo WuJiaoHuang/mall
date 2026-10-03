@@ -1,7 +1,0 @@
-com.heima:user-service:jar:1.0.0
-\- com.baomidou:mybatis-plus-boot-starter:jar:3.5.7:compile
-   +- com.baomidou:mybatis-plus:jar:3.5.7:compile
-   |  +- com.baomidou:mybatis-plus-core:jar:3.5.7:compile
-   |  +- com.baomidou:mybatis-plus-annotation:jar:3.5.7:compile
-   |  \- com.baomidou:mybatis-plus-extension:jar:3.5.7:compile
-   \- com.baomidou:mybatis-plus-spring-boot-autoconfigure:jar:3.5.7:compile
